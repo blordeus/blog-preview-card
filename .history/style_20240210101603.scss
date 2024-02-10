@@ -23,18 +23,9 @@ body {
     font-family: Figtree;
 }
 
-main{
-    border-radius: 10px;
-}
-
-.rounded-edges {
-    border-radius: 10px;
-}
-
 p {
-    font-size: 16px;
+    font-size: 16px
 }
-
 
 .yellow-bg {
     background-color: $Yellow;
@@ -49,7 +40,7 @@ p {
 
 .black-shadow {
     box-shadow: 10px 10px 0px $Black;
-    border: 1px solid $Black;
+    outline-width: 1px;
 }
 
 .grey-text {
