@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Italic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+    font-style: italic;
+}
+
+// Primary
+
+$Yellow: hsl(47, 88%, 63%);
+
+// Neutral
+
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 50%);
+$Black: hsl(0, 0%, 7%);
+
+body {
+    font-family: Figtree;
+}
+
+main{
+    border-radius: 10px;
+}
+
+.rounded-edges {
+    border-radius: 5%;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.yellow-bg {
+    background-color: $Yellow;
+
+}
+
+.black-bg {
+    background-color: $Black;
+}
+
+//create a black shadow for the box that offsets to the right and bottom
+
+.black-shadow {
+    box-shadow: 10px 10px 0px $Black;
+    border: 2px solid $Black;
+}
+
+.grey-text {
+    color: $Grey;
+}
+
+.white-bg {
+    background-color: $White;
+}
+
+.black-text {
+    color: $Black;
+}
+
+.greg {
+    scale: 0.75;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+//media query for desktop
+
+@media (min-width: 768px) {
+    .black-shadow {
+        box-shadow: 10px 10px 0px $Black;
+        border: 3px solid $Black;
+    }
+
+    .img-header {
+        max-width: 100%;
+    }
+
+    //reduce main box size and center it to screen
+
+    main {
+        max-width: 500px;
+        border-radius: 40px;
+        margin-inline: auto;
+        //translate box to center of screen
+        transform: translate(0, 500px);
+    }
+
+    .rounded-edges {
+        border-radius: 8%;
+    }
+
+}

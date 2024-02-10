@@ -7,8 +7,19 @@
   src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
   font-style: italic;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Figtree;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -33,7 +44,7 @@ p {
 
 .black-shadow {
   box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
-  border: 1px solid hsl(0, 0%, 7%);
+  border: 2px solid hsl(0, 0%, 7%);
 }
 
 .grey-text {
@@ -59,4 +70,18 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  .black-shadow {
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+    border: 3px solid hsl(0, 0%, 7%);
+  }
+  main {
+    border-radius: 40px;
+    max-width: 500px;
+  }
+  .rounded-edges {
+    border-radius: 8%;
+  }
 }/*# sourceMappingURL=style.css.map */
