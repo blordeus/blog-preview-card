@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Italic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+    font-style: italic;
+}
+
+// Primary
+
+$Yellow: hsl(47, 88%, 63%);
+
+// Neutral
+
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 50%);
+$Black: hsl(0, 0%, 7%);
+
+body {
+    font-family: Figtree;
+}
+
+p {
+    font-size: 16px
+}
+
+.yellow-bg {
+    background-color: $Yellow;
+
+}
+
+.black-bg {
+    background-color: $Black;
+}
+
+.grey-text {
+    color: $Grey;
+}
+
+.white-bg {
+    background-color: $White;
+}
+
+.black-text {
+    color: $Black;
+}
+
+.greg {
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

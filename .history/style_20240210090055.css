@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Figtree;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Figtree-Italic;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+  font-style: italic;
+}
+body {
+  font-family: Figtree;
+}/*# sourceMappingURL=style_20240210090055.css.map */
