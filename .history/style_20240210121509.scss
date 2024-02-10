@@ -50,10 +50,11 @@ p {
     font-size: 16px;
 }
 
-h1:hover {
+h1:active {
     color: $Yellow;
-    //change selection to finger
-    cursor: pointer;
+    //selection to be yellow
+    user-select: all;
+    
 }
 
 
